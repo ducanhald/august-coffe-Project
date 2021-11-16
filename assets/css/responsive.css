@@ -1,0 +1,69 @@
+@media (min-width: 64em) {}
+
+
+/* Tablet */
+
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    .taskbar-all {
+        display: none;
+    }
+    .div-search {
+        width: 6%;
+        height: 5.625em;
+        right: 0;
+        text-align: right;
+    }
+    #btn-signup {
+        margin-top: 2.625em;
+    }
+    #btn-signin {}
+    .body {}
+    .banner {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width:46.1875em) {
+    .taskbar-all {
+        display: none;
+    }
+    .header {
+        height: auto;
+        
+    }
+    .s-menu {
+        display: block;
+    }
+    .brand-name {
+        font-size: 3.5em;
+    }
+    .banner {
+        display: none;
+    }
+    .div-menuheader {
+        display: none;
+    }
+    .about {
+        padding-left: 0;
+    }
+    .s-icon-menu {
+        display: inline-block;
+    }
+    .img-search {
+        display: none;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .div-btn-sign {
+        padding-left: calc((100%-9em)/4);
+    }
+    #btn-signin {
+        margin-left: 0;
+    }
+    #btn-signup {}
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./imgs/logo.png" rel="icon" />
+    <link
+      rel="stylesheet"
+      href="./font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+
+    <title>August Coffe</title>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="header">
+        <div class="grid wide header-flex">
+          <div class="header__logo">
+            <img src="/assets/imgs/logo.png" class="header__img-logo" alt="" />
+          </div>
+          <nav class="header__menu">
+            <ul class="nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#footer">About</a></li>
+              <li><a href="#">Service</a></li>
+            </ul>
+          </nav>
+          <div class="header__user">
+            <div class="header__user-avatar">
+              <i class="fas fa-user"></i>
+              <div class="header__user-avatar__authen">
+                <div class="header__user-avatar__authen-history">
+                  <i class="fas fa-history"></i>
+                  <a>Tra cứu đơn hàng</a>
+                </div>
+                <div class="header__user-avatar-login">
+                  <i class="fas fa-sign-in-alt"></i>
+                  <a>Đăng nhập</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="header__user-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home">
+        <div class="grid wide">
+          <div class="row">
+            <div class="home__about col l-7">
+              <p class="brand-name">August Coffe</p>
+              <p class="brand-title">
+                Tháng 8, tháng của sự đặc biệt bởi khoảng khắc giao mùa được hoà
+                lẫn giữa sự bồn chồn đón lấy mùa thu và sự nuối tiếc khi mùa hạ
+                đã chẳng còn ở đó. Còn gì tuyệt vời hơn khi ghé lại với chúng
+                tôi thưởng thức một ly cafe giữa đen và trắng, rồi cảm nhận bước
+                chân của thời gian đang đi qua kí ức. Để rồi không còn những
+                muộn phiền, chỉ còn trong tim sự bình yên đến lạ thường.Để rồi
+                không còn những muộn phiền, chỉ còn trong tim sự bình yên đến lạ
+                thường.Để rồi không còn những muộn phiền, chỉ còn trong tim sự
+                bình yên đến lạ thường.
+              </p>
+              <div class="div-btn-sign">
+                <button id="btn-signup">Sign Up</button>
+                <button id="btn-signin">Login In</button>
+              </div>
+            </div>
+            <div class="col l-5">
+              <div class="home__banner">
+                <img src="./imgs/lycf.png" class="img-lycf" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin: 10 0px 0"></div>
+
+      <div class="product">
+        <div class="grid wide" id="product">
+          <div class="row product-list">
+            <div class="col l-2-4 m-4 c-12">
+              <div class="product-item">
+                <a class="product-item__link">
+                  <div
+                    class="product-item__img"
+                    style="background-image: url(./imgs/MayPhacf.png)"
+                  ></div>
+                  <div class="product-item__content">
+                    <p class="product-item__name">
+                      Máy pha cà phê Espresso - Hàng Chính Hãng
+                    </p>
+                    <div class="product-item__price">
+                      <span class="product-item__price-old">1.200.000</span>
+                      <span class="product-item__price-current">888.888</span>
+                    </div>
+                    <div class="product-item__action">
+                      <span class="product-item__like">
+                        <i
+                          class="product-item__like-icon-empty far fa-heart"
+                        ></i>
+                        <i
+                          class="product-item__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="product-item__rating">
+                        <i class="product-item__star--gold fas fa-star"></i>
+                        <i class="product-item__star--gold fas fa-star"></i>
+                        <i class="product-item__star--gold fas fa-star"></i>
+                        <i class="product-item__star--gold fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="product-item__origin">
+                      <span class="product-item__brand">SamSung</span>
+                      <i class="fas fa-plus-circle"></i>
+                    </div>
+            
+                    <div class="product-item__sale-off">
+                      <span class="product-item__sale-off-percent">10%</span>
+                      <span class="product-item__sale-off-label">GIẢM</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact"></div>
+      <div class="footer" id="footer">
+        <div class="grid wide">
+          <div class="row footer-contact">
+            <div class="col c-4 footer-contact-item">
+              <div class="footer-contact-item__icon">
+                <i class="fas fa-phone-square"></i>
+              </div>
+              <div class="footer-contact-item__content">
+                <p>0935219859</p>
+              </div>
+            </div>
+            <div class="col c-4 footer-contact-item">
+              <div class="footer-contact-item__icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="footer-contact-item__content">
+                ducanhald@gmail.com
+              </div>
+            </div>
+            <div class="col c-4 footer-contact-item">
+              <div class="footer-contact-item__icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="footer-contact-item__content">
+                <a
+                  href="https://www.google.com/maps/place/Hi%E1%BB%81n+V%C3%A2n,+Vinh+Hi%E1%BB%81n,+Ph%C3%BA+L%E1%BB%99c,+Thua+Thien+Hue,+Vietnam/@16.3488234,107.8972649,16z/data=!3m1!4b1!4m5!3m4!1s0x3141850919e5c45f:0xeda315c1cb5cc911!8m2!3d16.3481046!4d107.9013378"
+                  ><p>Lien Chieu, Da Nang</p></a
+                >
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="grid">
+            <div class="row footer-depcriptions">
+              <div class="col l-3 m-6 c-12 footer-depcriptions__content">
+                <div>
+                  <p>About</p>
+                  <ul>
+                    <li>Our Story</li>
+                    <li>Our Website</li>
+                    <li>Our Team</li>
+                    <li>Our Blog4</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col l-3 m-6 c-12 footer-depcriptions__content">
+                <p>Company</p>
+                <ul>
+                  <li>Our Story</li>
+                  <li>Our Website</li>
+                  <li>Our Team</li>
+                  <li>Our Blog4</li>
+                </ul>
+              </div>
+              <div class="col l-3 m-6 c-12 footer-depcriptions__content">
+                Resources
+                <ul>
+                  <li>Our Story</li>
+                  <li>Our Website</li>
+                  <li>Our Team</li>
+                  <li>Our Blog4</li>
+                </ul>
+              </div>
+              <div class="col l-3 m-6 c-12 footer-depcriptions__content">
+                Subscribe
+                <ul>
+                  <li>Our Story</li>
+                  <li>Our Website</li>
+                  <li>Our Team</li>
+                  <li>Our Blog4</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-social">
+            <div class="footer-social--content">
+              <div class="footer-social__link">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="footer-social__link">
+                <i class="fab fa-invision"></i>
+              </div>
+              <div class="footer-social__link">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <div class="footer-social__link">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+            </div>
+          </div>
+          <div class="footer--coppy-right">
+            <p class="footer--coppy-right__content">
+              Copyright © Copyright Website By Duc Anh
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-signin">
+        <div class="modal-signin-container">
+          <div class="heading-signin">
+            <p class="title-signin">Welcome Back!</p>
+            <p class="title-mini-signin">We're so excited to see again!</p>
+            <img src="/assets/imgs/logo.png" alt="" class="logo-signin" />
+            <p class="title-logo-signin">August Coffe</p>
+          </div>
+
+          <form action="" method="POST" class="form" id="form-signin">
+            <div class="form-group">
+              <label for="" class="label-email-signin"
+                >EMAIL OR PHONE NUMBER</label
+              >
+              <input
+                type="email"
+                class="input-email-signin"
+                name="email"
+                id="email"
+                placeholder="ex: name@domain.com"
+              />
+              <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="" class="label-password-signin">PASSWORD</label>
+              <input
+                type="password"
+                class="input-password-signin"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <span class="form-message"></span>
+            </div>
+          </form>
+          <p class="reset-pass"><a href="#">Forgot your password?</a></p>
+          <button class="btn-login-signin">LOGIN</button>
+          <p class="p-res-signup">or login with</p>
+          <div class="signup-withgg">
+            <i class="ti-google"></i> Login with Google
+          </div>
+          <div class="signup-withfb">
+            <i class="ti-facebook"></i> Login with Facebook
+          </div>
+          <p class="p-register">No account? <a href="#">Register</a></p>
+          <div class="close-signin">
+            <i class="fas fa-times i-close-signin"></i>
+          </div>
+        </div>
+      </div>
+      <div class="modal-signup">
+        <div class="modal-signup-container">
+          <div class="heading-signup">
+            <p class="title-signup">Create Account</p>
+            <p class="title-mini-signup">It's free to get started!</p>
+            <img src="/assets/imgs/logo.png" alt="" class="logo-signup" />
+            <p class="title-logo-signup">August Coffe</p>
+          </div>
+          <div class="form-signup">
+            <label for="" class="label-email-signup"
+              >EMAIL OR PHONE NUMBER</label
+            >
+            <input
+              type="email"
+              class="input-email-signup"
+              placeholder="ex: name@domain.com"
+            />
+            <div class="info-signup">
+              <div class="username-signup">
+                <label for="" class="label-username-signup">USERNAME</label>
+                <input
+                  type="text"
+                  class="input-username"
+                  placeholder="Username"
+                />
+              </div>
+              <div class="birth-signup">
+                <label for="" class="label-birth-signup">DAY OF BIRTHDAY</label>
+                <input type="date" class="input-birth-signup" />
+              </div>
+            </div>
+            <label for="" class="label-password-signup">PASSWORD</label>
+            <input type="password" class="input-password-signup" />
+            <label for="" class="label-password-signup">CONFIRM PASSWORD</label>
+            <input type="password" class="input-password-signup" />
+            <p class="rules-signup">
+              By clicking Sign Up, you are indicating that you have read and
+              acknowledge the Terms of Service and Privacy Notice.
+            </p>
+            <button class="btn-login-signup">SIGN UP</button>
+            <p class="p-res-signup">or login with</p>
+            <div class="signup-withgg">
+              <i class="ti-google"></i> Login with Google
+            </div>
+            <div class="signup-withfb">
+              <i class="ti-facebook"></i> Login with Facebook
+            </div>
+          </div>
+          <div class="close-signup">
+            <i class="ti-close i-close-signin"></i>
+          </div>
+        </div>
+      </div>
+      <div class="menu-hide">
+        <div class="menu-hide-container">
+          <i class="ti-close i-close-menu"></i>
+          <ul class="nav-s-menu">
+            <li><a href="# ">Home</a></li>
+            <li><a href="# ">About</a></li>
+            <li><a href="# ">Product</a></li>
+            <li><a href="# ">Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/assets/js/index.js "></script>
+  </body>
+</html>
